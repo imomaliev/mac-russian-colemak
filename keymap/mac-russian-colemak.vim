@@ -1,84 +1,95 @@
+" https://github.com/neovim/neovim/blob/master/runtime/keymap/russian-jcukenmac.vim
+" Vim Keymap file for russian characters, layout 'mac-jcuken', Mac variant
+
+" Derived from russian-jcuken.vim by Artem Chuprina <ran@ran.pp.ru>
+" Maintainer:   Sardorbek Imomaliev
+" Last Changed: 2018 May 13
+
+" All characters are given literally, conversion to another encoding (e.g.,
+" UTF-8) should work.
+
 scriptencoding utf-8
 
 let b:keymap_name = "ru"
 
 loadkeymap
-`	]
-q	й
-w	ц
-f	у
-p	к
-g	е
-j	н
-l	г
-u	ш
-y	щ
-;	з
-[	х
-]	ъ
-a	ф
-r	ы
-s	в
-t	а
-d	п
-h	р
-n	о
-e	л
-i	д
-o	ж
-'	э
-\\  ё
-z	я
-x	ч
-c	с
-v	м
-b	и
-k	т
-m	ь
-,	б
-.	ю
-/	/
-" capital letters
-~	[
-Q	Й
-W	Ц
-F	У
-P	К
-G	Е
-J	Н
-L	Г
-U	Ш
-Y	Щ
-:	З
-{	Х
-}	Ъ
-A	Ф
-R	Ы
-S	В
-T	А
-D	П
-H	Р
-N	О
-E	Л
-I	Д
-O	Ж
-\"	Э
-|	Ё
-Z	Я
-X	Ч
-C	С
-V	М
-B	И
-K	Т
-M	Ь
-<	Б
->	Ю
-" upper row
-@	"
-#	№
-$   %
-%	:
-^	,
-&   .
-*	;
 
+\|  Ё   CYRILLIC CAPITAL LETTER IO
+\\  ё   CYRILLIC SMALL LETTER IO
+
+T   А   CYRILLIC CAPITAL LETTER A
+<   Б   CYRILLIC CAPITAL LETTER BE
+S   В   CYRILLIC CAPITAL LETTER VE
+L   Г   CYRILLIC CAPITAL LETTER GHE
+I   Д   CYRILLIC CAPITAL LETTER DE
+G   Е   CYRILLIC CAPITAL LETTER IE
+O   Ж   CYRILLIC CAPITAL LETTER ZHE
+:   З   CYRILLIC CAPITAL LETTER ZE
+B   И   CYRILLIC CAPITAL LETTER I
+Q   Й   CYRILLIC CAPITAL LETTER SHORT I
+P   К   CYRILLIC CAPITAL LETTER KA
+E   Л   CYRILLIC CAPITAL LETTER EL
+V   М   CYRILLIC CAPITAL LETTER EM
+J   Н   CYRILLIC CAPITAL LETTER EN
+N   О   CYRILLIC CAPITAL LETTER O
+D   П   CYRILLIC CAPITAL LETTER PE
+H   Р   CYRILLIC CAPITAL LETTER ER
+C   С   CYRILLIC CAPITAL LETTER ES
+K   Т   CYRILLIC CAPITAL LETTER TE
+F   У   CYRILLIC CAPITAL LETTER U
+A   Ф   CYRILLIC CAPITAL LETTER EF
+{   Х   CYRILLIC CAPITAL LETTER HA
+W   Ц   CYRILLIC CAPITAL LETTER TSE
+X   Ч   CYRILLIC CAPITAL LETTER CHE
+U   Ш   CYRILLIC CAPITAL LETTER SHA
+Y   Щ   CYRILLIC CAPITAL LETTER SHCHA
+}   Ъ   CYRILLIC CAPITAL LETTER HARD SIGN
+R   Ы   CYRILLIC CAPITAL LETTER YERU
+M   Ь   CYRILLIC CAPITAL LETTER SOFT SIGN
+\"  Э   CYRILLIC CAPITAL LETTER E
+>   Ю   CYRILLIC CAPITAL LETTER YU
+Z   Я   CYRILLIC CAPITAL LETTER YA
+t   а   CYRILLIC SMALL LETTER A
+,   б   CYRILLIC SMALL LETTER BE
+s   в   CYRILLIC SMALL LETTER VE
+l   г   CYRILLIC SMALL LETTER GHE
+i   д   CYRILLIC SMALL LETTER DE
+g   е   CYRILLIC SMALL LETTER IE
+o   ж   CYRILLIC SMALL LETTER ZHE
+;   з   CYRILLIC SMALL LETTER ZE
+b   и   CYRILLIC SMALL LETTER I
+q   й   CYRILLIC SMALL LETTER SHORT I
+p   к   CYRILLIC SMALL LETTER KA
+e   л   CYRILLIC SMALL LETTER EL
+v   м   CYRILLIC SMALL LETTER EM
+j   н   CYRILLIC SMALL LETTER EN
+n   о   CYRILLIC SMALL LETTER O
+d   п   CYRILLIC SMALL LETTER PE
+h   р   CYRILLIC SMALL LETTER ER
+c   с   CYRILLIC SMALL LETTER ES
+k   т   CYRILLIC SMALL LETTER TE
+f   у   CYRILLIC SMALL LETTER U
+a   ф   CYRILLIC SMALL LETTER EF
+[   х   CYRILLIC SMALL LETTER HA
+w   ц   CYRILLIC SMALL LETTER TSE
+x   ч   CYRILLIC SMALL LETTER CHE
+u   ш   CYRILLIC SMALL LETTER SHA
+y   щ   CYRILLIC SMALL LETTER SHCHA
+]   ъ   CYRILLIC SMALL LETTER HARD SIGN
+r   ы   CYRILLIC SMALL LETTER YERU
+m   ь   CYRILLIC SMALL LETTER SOFT SIGN
+'   э   CYRILLIC SMALL LETTER E
+.   ю   CYRILLIC SMALL LETTER YU
+z   я   CYRILLIC SMALL LETTER YA
+
+§   >
+±   <
+@   "
+#   №
+$   %
+%   :
+^   ,
+&   .
+*   ;
+`   ]
+~   [
